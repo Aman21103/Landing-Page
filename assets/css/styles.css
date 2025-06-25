@@ -409,17 +409,18 @@ a:hover, button:hover {
     background-color: #e6f0e6;
     color: #2a6b2a;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
 }
 
 .contact h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .contact p {
-    margin: 0 auto 20px auto;
+    margin: 5px 20px;
     font-size: 1rem;
+    margin-bottom: 20px;
 }
 
 .contact-info {
@@ -453,6 +454,7 @@ a:hover, button:hover {
 .contact-item p {
     font-size: 1rem;
     margin-left: 2px;
+    margin-top: 15px;
 }
 
 /* Footer */
