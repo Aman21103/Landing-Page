@@ -623,9 +623,9 @@ footer {
         justify-content: center;
     }
 
-    .pendiri-item {
-        /* max-width: 300px; */
-    }
+    /* .pendiri-item {
+        max-width: 300px; 
+    } */
 
     .pendiri-item img {
         /* width: 100%; */
@@ -643,7 +643,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    justify-content: center;
+    /* justify-content: left; */
 }
 
 .visi, .misi {
@@ -664,7 +664,16 @@ footer {
     .visi, .misi {
         max-width: 100%;
         width: auto;
+    }
+    .misi p {
         text-align: center;
+    }
+    .visi {
+        text-align: center;
+    }
+    
+    .misi ol li {
+        text-align: left;
     }
 
     .hero-content h1 {
@@ -711,16 +720,17 @@ footer {
         box-sizing: border-box;
     }
 
-    .footer-links-columns {
-        flex-direction: column;
+    .footer-links-columns.footer-flex-row {
+        display: flex !important;
+        flex-direction: row !important;
         gap: 10px;
-        align-items: center;
+        align-items: flex-start;
         max-width: 100%;
         box-sizing: border-box;
     }
 
     .footer-column {
-        min-width: 100%;
+        min-width: 50%;
         text-align: center;
         padding: 10px 0;
         box-sizing: border-box;
